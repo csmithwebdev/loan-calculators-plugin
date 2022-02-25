@@ -1,0 +1,81 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+* { /* all element selector */
+  box-sizing: border-box; /* border, within the width of the element */
+}
+ 
+
+.wp-block-create-block-loan-calculator {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+
+.calculateButton {
+    width: 253px;
+    margin-top: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    background: #3c3c3c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+#output {
+    display: none;
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    color: #000;
+    font-size: 24px;
+    border: 3px solid #3fb353
+}
+
+#mortOutput {
+    display: none;
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    color: #000;
+    font-size: 24px;
+    border: 3px solid #3fb353
+}
+
+
+.form-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+
+.form-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+.grid-expand {
+    grid-column: 1 / span 2;
+}
+
+input[type=number] {
+  width: 100%;
+  border: solid 1px #000 !important;
+  padding: 10px !important;
+  border-radius: 2px !important;
+
+}
+
+input[type=button] {
+  width: 100%;
+
+}
+

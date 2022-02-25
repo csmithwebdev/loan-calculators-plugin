@@ -1,0 +1,12 @@
+{
+	"name": "create-block/loan-calculator-calculator",
+	"title": "Calculators",
+	"category": "widgets",
+	"icon": "smiley",
+	"parents": ["create-block/loan-calculator"],
+	"description": "Add a Calculator to our widget",
+	"textdomain": "loan-calculator",
+	"support": {
+		"html":false
+	}
+}
